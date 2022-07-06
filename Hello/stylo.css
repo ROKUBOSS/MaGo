@@ -1,0 +1,91 @@
+.material-symbols-outlined{
+    font-size: 100px;
+    font-weight: 300;
+    color: steelblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: gold;
+    background-color: black;
+    padding: 20px;
+}
+h1:hover{
+    font-size: 100px;
+    transition: all 5s linear;
+    
+    margin-top: 0%;
+}
+div{
+    height: 700px;
+    width: 700px;
+    
+    overflow: auto;
+    
+}
+img{
+    height: 680px;
+    width: 680px;
+    align-items: center;
+    justify-content: center;
+}
+.hide{
+    display: none;
+}
+.photo:hover .hide{
+    display: block;
+}
+.photo:hover .view{
+    display: none;
+}
+.main{
+    height: 929px;
+    width: 1920px;
+    background-image: url(images/pico.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nodi{
+    height: 929px;
+    width: 1920px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+   
+   
+    
+}
+
+    
+
+.nodi div{
+    height: 650px;
+    width: 650px;
+    display: flex;
+}
+button{
+    float: right;
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+}
+.one{
+    background-image: url(images/kolom.webp);
+    background-size: cover;
+    background-position: center;
+}
+.two{
+    background-image: url(images/magna.webp);
+    background-size: cover;
+    background-position: center;
+}
+.three{
+    background-image: url(images/honda.webp);
+    background-size: cover;
+    background-position: center;
+}
+   
